@@ -194,6 +194,7 @@ display: none;
 	-webkit-transform: scaleX(-1);
 }
 .nav{
+	font-family: 'Oswald', sans-serif;
 	display: block;
 	float: right;
 	/*margin-right:5%;*/

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung&subset=korean');
+.toggle_1 {
+  background: rgba(0,0,0,0.1);
+  width: 75px;
+  height: 22px;
+  position: relative;
+  -webkit-user-select: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 22px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.toggle_1 .on, .toggle_1 .off {
+  z-index: 10;
+  position: absolute;
+  top: 0px;
+  height: 24px;
+  width:29px;
+  transition: all 0.2s;
+}
+.toggle_1 .off {
+  font-family:'Nanum Gothic',monospace;
+  right: 3px;
+  color: #5e6f6e;
+}
+.toggle_1 .on {
+  font-family:'Nanum Gothic',monospace;
+  left: 12px;
+  color:#fff;
+}
+.toggle_1 .slide_1 {
+  transition: all 0.2s ease;
+  position: absolute;
+  left: 4px;
+  top: -1px;
+  bottom: 0;
+  background: #c0292f;
+  width: 34px;
+  height: 25px;
+  z-index: 1;
+  border-radius:5px;
+}
+.toggle_1.active .slide_1 {
+  left: 36px;
+}
+.toggle_1.active .on {
+  color:#5e6f6e;
+}
+.toggle_1.active .off {
+  color:#fff;
+}
+.musicplayer{
+	width: 150px;
+  margin: 5px auto 0 auto;
+}
+#wrap1220{
+  position:relative;
+}
+
+#sidebar1{
+  float:left; 
+  width:320px; 
+
+}
+#center{
+  float:left;
+  width: 320px;
+  margin:0;
+  padding-left: 125px;
+}
+
+#sidebar2{
+  /*float:right;*/
+  position:absolute;top:0;left:100%;margin:0 0 0 -300px;
+  /**/
+  width:400px; 
+}

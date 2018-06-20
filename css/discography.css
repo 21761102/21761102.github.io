@@ -1,0 +1,108 @@
+/**/
+
+.album-title{
+	color:#000;
+	padding-bottom:5px;
+}
+.album-title h2{
+    font-size: 40px;
+    font-weight: bold;
+	display:block;
+	float:none;
+	}	
+h4{
+    padding: 5px 0;
+    color: rgb(46, 46, 46);
+}
+.bold{
+    font-weight: bold;
+}	
+.tracklist{
+	display:block;
+	padding:12px 0;
+	line-height:1.5em;
+	}
+.tracklist p{
+	font-family: 'Oswald', sans-serif;
+	font-size:15px;
+	
+	}
+.tracklist li{
+	font-family:'Nanum Gothic',monospace;
+	list-style:none;
+	font-size:13px;
+	}
+	
+#sect-main p.intro{ 
+    padding:10px 0 10px 0;
+    margin:0;
+    font-size:15px;
+    line-height:24px;
+}
+#sect-main p{ 
+	padding:0;
+    font-size:15px;
+    line-height:24px;
+}
+#sect-main p.sub_title{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px 0 0 0;
+}
+#sect-main p.sub_title2{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+		
+.box-l{width:100%;
+float:none;}
+
+.box-l img {
+	border:none;
+	}
+
+.sound_source ul,li{
+    list-style: none;
+    float: left;
+    padding: 4px;
+}
+.box-r{
+width:100%;
+float:none;}		
+	
+@media only screen and (min-width: 481px) {��
+#album-list li {
+	max-width:120px;
+	display:inline-block;
+	margin: 0 10px;
+	}
+
+.album-title h2{
+	display:block;
+	float:left;
+	}	
+}
+
+@media only screen and (min-width: 769px) {
+
+#album-list li {
+	max-width:150px;
+	display:inline-block;
+	margin: 0 10px;
+}
+		
+.box-l{
+	width:35%;
+	float:left;
+}
+.box-r{
+	width:62%;
+	float:right;
+}	
+
+.album-title h2{
+	display:block;
+	float:left;
+}	
+}

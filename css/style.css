@@ -434,7 +434,14 @@ section img{
 	font-size: 16px;
 	line-height: 30px;
 	color: #c0292f;
-}			
+}
+#sect-main-2 p.lyrics{
+	padding-top: 65px;
+	font-family: 'Song Myung', serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #c0292f;
+}				
 
 #mainnav{
 	display:block;
@@ -620,6 +627,11 @@ line-height:20px;
 font-size:12px;
 line-height:17px;
 }
+#sect-main-2 p{ 
+	padding:0;
+font-size:12px;
+line-height:17px;
+}
 .fullbox{
 width:85%;
 margin:0 auto;
@@ -675,6 +687,13 @@ section{
 }
 #sect-main_1{
 	padding:30px 0 30px 0;
+	width:100%;
+	background-color:#FFF;
+	height:100%;
+	font-family:'Nanum Gothic',monospace;
+}
+#sect-main-2{
+	padding:75px 0 75px 0;
 	width:100%;
 	background-color:#FFF;
 	height:100%;
